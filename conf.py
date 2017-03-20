@@ -82,6 +82,7 @@ todo_include_todos = False
 import sphinx_rtd_theme
 html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_theme_options = {}
 html_theme_options['canonical_url'] = 'http://notarynodes.readthedocs.io/en/latest'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
