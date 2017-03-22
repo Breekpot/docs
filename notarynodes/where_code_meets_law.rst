@@ -117,6 +117,6 @@ But does it make sense to ask non-technical companies such as bookstores to each
 
 Temporary sweet spot
 --------------------
-With so many unanswered questions and the desire to go live today and not in 2018; we are currently experimenting to see if a **general purpose** private blockchain fits real, regulated, assets.
+With so many unanswered questions and the ambition to go live today and not in 2018; we are currently experimenting to see if a **general purpose** private blockchain fits real, regulated, assets best.
 
 .. note:: Maturing of technology might gravitate the sweet spot towards more de-centrality (public blockchains) in the future.
