@@ -89,7 +89,9 @@ Such a solution would trade pure de-centrality for flexibility in case of necess
 
 The implication is quite a fundamental one as for some it undermines the purpose of blockchain technology.
 Though we could argue that important improvements over the old situation still hold:
+
 * it increases standardization of digital representations of assets
 * the system is transparent
 * smart contract logic can ease trading friction and manage identities
-We believe those improvements will have a huge positive impact on scaling the Bloq ecosystem and foster innovation.
+
+We believe those improvements will have a big positive impact on scaling the Bloq ecosystem and foster innovation.
