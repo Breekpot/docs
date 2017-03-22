@@ -23,10 +23,10 @@ To support fiat currency for bloq trading, trades take place off-chain.
 
     +-----------------------------------------+-----------------------+-----------------------------------------+-----------------------+
     | .. image:: ../../images/bloq.png        | Bloq                  | .. image:: ../../images/crowd.png       | Crowd                 |
-    |    :width: 20pt                         |                       |    :width: 20pt                         |                       |
+    |    :width: 30px                         |                       |    :width: 30px                         |                       |
     +-----------------------------------------+-----------------------+-----------------------------------------+-----------------------+
     | .. image:: ../../images/euro.png        | Fiat currency         | .. image:: ../../images/bloqhouse.png   | Bloqhouse exchange    |
-    |    :width: 20pt                         |                       |    :width: 20pt                         |                       |
+    |    :width: 30px                         |                       |    :width: 30px                         |                       |
     +-----------------------------------------+-----------------------+-----------------------------------------+-----------------------+
 
 Go to `Bloqhouse.com <https://www.bloqhouse.com>`__ to create an account and start trading bloqs.
@@ -50,7 +50,7 @@ Trading on-chain Bloqs with another on-chain asset such as the Bitcoin would all
 
     +-----------------------------------------+-----------------------+-----------------------------------------+-----------------------+
     | .. image:: ../../images/bitcoin.png     | Bitcoin               | .. image:: ../../images/3rdparty.png    | dApp                  |
-    |    :width: 20pt                         |                       |    :width: 20pt                         |                       |
+    |    :width: 30px                         |                       |    :width: 30px                         |                       |
     +-----------------------------------------+-----------------------+-----------------------------------------+-----------------------+
 
 |
@@ -72,5 +72,5 @@ Coming summer Bloqhouse plans to organize a :ref:`bloqathon` to kick-start devel
 
     +-----------------------------------------+-----------------------+
     | .. image:: ../../images/bank.png        | Bank                  |
-    |    :width: 20pt                         |                       |
+    |    :width: 30px                         |                       |
     +-----------------------------------------+-----------------------+

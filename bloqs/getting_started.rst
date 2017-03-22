@@ -11,7 +11,7 @@ Bloq chaincode (smart contracts) are deployed on NotaryNodes v0.1.
 
 Test data
 ~~~~~~~~~
-Soon information will be released to connect to the test network that holds Mainstreet 1 (John Doe) Bloq data.
+Soon information will be released to connect to the test network that holds Mainstreet 1 Bloq data.
 
 Real data
 ~~~~~~~~~

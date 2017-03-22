@@ -19,8 +19,6 @@ NotaryNodes aims to:
 * Identify new business models and opportunities for partners
 * Relax some blockchain principles and make a shift from code is law towards *code meets law*
 
-.. note:: Open question: As technology matures and understanding of blockchain phenomena, such as forks, evolves we might be able to steadily shift back towards de-centrality.
-
 Code is law
 -----------
 
@@ -46,18 +44,18 @@ Challenges with code is law
 
 .. _codeislawsolution:
 
-A solution NN is investigating
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A possible solution
+~~~~~~~~~~~~~~~~~~~
 
-The proposal is to rely on a role that provided trust in societies for a long time already.
-The idea let a notary securely hold a cryptographic key that regulates updates to the code.
+The option we are investigating is to rely on a role that provided trust in society for a long time.
+The idea is to let a notary hold a cryptographic key that allows updates to the code.
 
 .. note:: Open question: What are the conditions under which the key is released and to who is it released? Who interprets the conditions?
 
 Chain of trust
 --------------
 
-Sometimes blockchain networks are called trustless networks.
+Sometimes blockchain networks are called trust-less networks.
 The fact that there is no absolute authority does not mean there are no people in the chain of trust.
 Behind every piece of software (protocol level and instance level) there is a person:
 
@@ -85,6 +83,7 @@ Given the current maturity of the technology we still see a lot challenges to ap
 * Scalability and environmental impact if we further scale
 * Large scale tax evasion and it's impact on society if we further scale
 
+That's quite a list of questions if you want to go live with your application tomorrow.
 It's important to realize that proof-of-work and de-centrality to establish trust, are just a means not an end.
 
 Ends
@@ -103,10 +102,8 @@ So the following is actually a valid question: Do you need a global de-central l
 Private blockchains
 -------------------
 
-Private blockchains do not provide the de-centrality public blockchains provide, which is actually the key innovation the Bitcoin protocol gave us.
-But maybe, for many assets, private blockchains could be a good enough *means* to the above *ends*.
-
-|
+Private blockchains do not provide the de-centrality public blockchains provide, the core innovation the Bitcoin protocol gave us.
+Maybe, for many assets, private blockchains could be a good enough *means* to the above *ends*.
 
 Current private blockchain implementations often have a specific, narrow, focus.
 They are tied to a specific group of companies that work together. It brings transparency, efficiency and middle men can be cut out.
@@ -118,8 +115,8 @@ Book vouchers can usually be redeemed at many different bookstores.
 Blockchain technology could be an efficient solution to register transactions.
 But does it make sense to ask non-technical companies such as bookstores to each maintain a peer of the private network?
 
-Temporary sweetspot
--------------------
-We are currently experimenting to see if a **general purpose** private blockchain fits real, regulated, assets best given the current maturity level of blockchain technology.
+Temporary sweet spot
+--------------------
+With so many unanswered questions and the desire to go live today and not in 2018; we are currently experimenting to see if a **general purpose** private blockchain fits real, regulated, assets.
 
-.. note:: Maturing of technology might gravitate the sweetspot towards more de-centrality (public blockchains) in the future.
+.. note:: Maturing of technology might gravitate the sweet spot towards more de-centrality (public blockchains) in the future.
