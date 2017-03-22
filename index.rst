@@ -6,10 +6,10 @@ Welcome to
 
 |
 
-The goal of NotaryNodes is to make **blockchain** technology a better fit to **real assets** that are under **legal jurisdiction** / that are regulated.
+The goal of NotaryNodes is to make **blockchain** technology a better fit to **real assets** that are under **legal jurisdiction** i.e. that are regulated.
 
-Blockchain technology for real (regulated) assets
--------------------------------------------------
+Blockchain technology for real - regulated - assets
+---------------------------------------------------
 
 Smart contract technology makes digitizing assets rather straightforward.
 Though bringing it to production-ready real world use cases is *not* straightforward.
@@ -18,7 +18,7 @@ NotaryNodes aims to **close the gap** between **code and law**.
 |
 
 NotaryNodes is an **open initiative**, knowledge and code will be made available **open source**.
-Contributions are very welcome, please contact on Github to get access.
+Contributions are welcome, please request access on Github.
 
 .. note:: This is a work *in progress*. Documentation, legal framework and code all have incubation status. Insights & solutions are subject to constant change!
 
