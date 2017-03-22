@@ -1,19 +1,22 @@
 NotaryNodes V0.1
 ================
 
-The NotaryNodes initiative is technology agnostic. For the first proof-of-concept we use the Hyperledger Fabric ledger technology.
-Asset were created using the Hyperledger composer tool. A tool that allows developers to quickly define assets and business networks in client-side javascript.
+.. note:: The NotaryNodes initiative is technology agnostic.
+
+The first proof-of-concept we've built on top of the Hyperledger Fabric protocol.
+Assets (chaincode) were created using Fabric composer, a tool that allows developers to easily define assets and business networks in client-side javascript.
+
 To read more about the first asset, see :ref:`bloqintro`.
 
 * `Hyperledger fabric <https://hyperledger-fabric.readthedocs.io/en/latest>`__
-* `Hyperledger composer <https://github.com/fabric-composer/fabric-composer>`__
+* `Fabric composer <https://fabric-composer.github.io>`__
 
 .. _fabricimplementation:
 
 Hyperledger fabric
 ------------------
 
-NotaryNodes v0.1 is a hosted instance of the Fabric 1.0 protocol. Integrity of protocol execution (hosting peers) is safeguarded by notaries.
+NotaryNodes v0.1 is a hosted instance of the fabric protocol. Integrity of protocol execution (hosting peers) is safeguarded by notaries.
 Its optimized for use cases that involve regulated assets, e.g. it has out-of-the-box KYC functionality.
 
 |
