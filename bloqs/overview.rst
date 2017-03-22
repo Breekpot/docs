@@ -1,7 +1,7 @@
 .. _bloqintro:
 
-What is a Bloq
-==============
+What is a Bloq?
+===============
 
 A bloq is a digitized ownership certificate of an legal entity holding a real estate object.
 It entitles the owner to all economic benefits coming out the legal entity. This includes the monthly rent and, if applicable, the increase in property value.
@@ -94,3 +94,12 @@ Though we argue that important improvements over the old solutions still hold:
 * smart contract logic can hold mechanisms to manage identities and prevent money laundering
 
 We believe those improvements will have a big positive impact on scaling the Bloq ecosystem and foster innovation.
+
+|
+
+.. figure:: ../images/architecture.png
+    :scale: 50 %
+    :alt: Architecture
+    :align: center
+
+    Architecture
