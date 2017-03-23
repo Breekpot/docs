@@ -9,7 +9,7 @@ Bloqhouse Bloq Exchange
 
 .. note:: Please read the section about Bloqs first, :ref:`bloqintro`. Also note that, in contrary to the Bloq ecosystem which is open source, Bloqhouse is a commercial application.
 
-Bloqhouse is an online wallet app that allows users to trade Bloqs with other users for fiat currencies i.e. EUR / USD.
+Bloqhouse is an online wallet app that allows users to trade Bloqs with other users in exchange for fiat currencies such as EUR or USD.
 To support those fiat currencies, trades take place off-chain.
 
 |
@@ -30,7 +30,7 @@ To support those fiat currencies, trades take place off-chain.
     +-----------------------------------------+-----------------------+-----------------------------------------+-----------------------+
 
 Visit `Bloqhouse.com <https://www.bloqhouse.com>`__ to apply for the pilot and buy Bloqs during the first Bloq emission this summer.
-If you want to develop your own applications on top of the Bloq ecosystem, visit the :ref:`bloqstarted`.
+If you want to develop your own applications on top of the Bloq ecosystem, visit the :ref:`bloqstarted` pages.
 
 Off- vs on-chain exchanges
 --------------------------
