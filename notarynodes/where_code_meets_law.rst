@@ -6,8 +6,8 @@ Where code meets law
 Why are there relatively few successful applications of blockchain technology to real world problems?
 
 * Code is law is problematic (e.g. the DAO hack)
-* Many business models include middle men, blockchain makes them obsolete
-* Technology immaturity and uncertainty about new phenomena such as forks
+* It's difficult to create business models in a disintermediating world
+* Technological immaturity and uncertainty about new phenomena such as forks
 * Trusting a de-central, anonymous, group of miners and developers is not always an option
 * Law and regulation still need to catch up
 
