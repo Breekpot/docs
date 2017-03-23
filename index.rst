@@ -15,8 +15,6 @@ Smart contract technology makes digitizing assets rather straightforward.
 Though bringing it to production-ready real world use cases is *not* straightforward.
 NotaryNodes aims to **close the gap** between **code and law**.
 
-|
-
 NotaryNodes is an **open initiative**, knowledge and code will be made available **open source**.
 Contributions are welcome, please request access on Github.
 

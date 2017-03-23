@@ -17,11 +17,9 @@ Hyperledger fabric
 ------------------
 
 NotaryNodes v0.1 is a hosted instance of the fabric protocol. Integrity of protocol execution (hosting peers) is safeguarded by notaries.
-Its optimized for use cases that involve regulated assets, e.g. it has out-of-the-box KYC functionality.
+Its optimized for use cases that involve regulated assets. E.g. it will provide re-useable functionality to connect to official identity providers such as idensys.
 
-|
-
-V0.1 can be considered a *general purpose* private ledger.
+V0.1 is a *general purpose* private ledger.
 
 .. figure:: ../images/notarynodes.png
     :scale: 70 %
@@ -38,19 +36,17 @@ V0.1 can be considered a *general purpose* private ledger.
 |
 
 We are investigating the setup that allows notaries to safeguard integrity of protocol execution.
-Any officially registered notary should be able to join the initiative, so that market forces create a fair transaction-cost level.
+Any officially registered notary should be able to join the initiative, so that market forces keep transaction costs at a fair price point.
 
 Among many other questions we are currently investigating, through workshops, what the exact role of the notary will be.
 
 Identity management
 ~~~~~~~~~~~~~~~~~~~
 
-To create digital representations of regulated assets robust baked-in *know your customer* (KYC) functionality is required.
+To create digital representations of regulated assets *know your customer* (KYC) functionality has to be implemented.
 Any serious solution will also require strong mechanisms to safeguard privacy.
 
-|
-
-A first solution that integrates a trusted identity provider IDIN with the Hyperledger Fabric CA was built by IBM, Van Doorne and Bloqhouse during the Dutch Blockchain Hackathon.
+A first solution that integrates a trusted identity provider iDIN with the Hyperledger Fabric CA was built by IBM, Van Doorne and Bloqhouse during the Dutch Blockchain Hackathon.
 
 External sources
 ~~~~~~~~~~~~~~~~

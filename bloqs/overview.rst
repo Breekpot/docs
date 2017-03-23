@@ -3,7 +3,7 @@
 What is a Bloq?
 ===============
 
-A bloq is a digitized ownership certificate of an legal entity holding a real estate object.
+A Bloq is a digitized ownership certificate of an legal entity holding a real estate object.
 It entitles the owner to all economic benefits realized by the legal entity. This includes the monthly rent and, if applicable, the increase in property value.
 The below image explains the entities involved.
 
@@ -20,7 +20,7 @@ The below image explains the entities involved.
     | .. image:: ../images/property.png       | Property              | .. image:: ../images/assetmanager.png   | Asset manager         |
     |    :width: 30px                         |                       |    :width: 30px                         |                       |
     +-----------------------------------------+-----------------------+-----------------------------------------+-----------------------+
-    | .. image:: ../images/business.png       | Business entity       | .. image:: ../images/crowd.png          | Crowd                 |
+    | .. image:: ../images/business.png       | Legal entity          | .. image:: ../images/crowd.png          | Crowd                 |
     |    :width: 30px                         |                       |    :width: 30px                         |                       |
     +-----------------------------------------+-----------------------+-----------------------------------------+-----------------------+
     | .. image:: ../images/legalowner.png     | Legal ownership       | .. image:: ../images/tenant.png         | Tenant                |
@@ -45,7 +45,7 @@ Characteristics of a Bloq:
 Digitized asset
 ---------------
 
-Currently its common practice for private real estate funds to issue certificates that do not have a (standardized) digital representation.
+Currently it's common practice for private real estate funds to issue certificates that do not have a (standardized) digital representation.
 Bloqification will replace offline (sometimes physical) shareholder registers with digital cloud-hosted smart contracts.
 
 Per business entity a smart contract is written and deployed. Within the smart contract's inner database the names of shareholders are stored.

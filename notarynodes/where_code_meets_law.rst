@@ -15,7 +15,7 @@ NotaryNodes aims to:
 
 * Apply blockchain to real-world applications (including regulated assets)
 * Learn by doing (small scale proof-of-concepts)
-* Together with partners such as notaries and technology companies
+* Collaborate with partners such as notaries and technology companies
 * Identify new business models and opportunities for partners
 * Relax some blockchain principles and make a shift from code is law towards *code meets law*
 
@@ -90,7 +90,7 @@ Ends
 ~~~~
 
 * Digitized (and standardized!!) assets
-* A trusted ledger that provides transparency (e.g. if trusted parties are corrupt everyone can witness it)
+* A trusted ledger that provides transparency (e.g. if trusted parties are corrupt, society can witness)
 * Efficient system, no expensive middlemen that can be replaced with technology
 
 Characteristics of real assets
@@ -102,7 +102,7 @@ So the following is actually a valid question: Do you need a global de-central l
 Private blockchains
 -------------------
 
-Private blockchains do not provide the de-centrality public blockchains provide, the core innovation the Bitcoin protocol gave us.
+Private blockchains do not provide the de-centrality public blockchains provide. Which was Bitcoin protocol's core innovation.
 Maybe, for many assets, private blockchains could be a good enough *means* to the above *ends*.
 
 Current private blockchain implementations often have a specific, narrow, focus.
