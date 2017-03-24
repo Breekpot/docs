@@ -7,7 +7,7 @@ This section illustrates some example services built on top of NotaryNodes.
 Bloqhouse Bloq Exchange
 -----------------------
 
-.. note:: Please read the section about Bloqs first, :ref:`bloqintro` Also note that, in contrary to the *open source* Bloq ecosystem, Bloqhouse is a commercial application.
+.. note:: Please read the section about Bloqs first, :ref:`bloqintro` Also note that, in contrary to the **open source** Bloq ecosystem, Bloqhouse is a commercial application.
 
 Bloqhouse is an online wallet app that allows users to trade Bloqs with other users in exchange for fiat currencies such as EUR or USD.
 To support those fiat currencies, trades take place off-chain.
