@@ -92,7 +92,7 @@ It's important to realize that proof-of-work and de-centrality to establish trus
 Ends
 ~~~~
 
-* Digitized (and standardized!!) assets
+* Digitized, and very important, standardized representations of assets
 * A trusted ledger that provides transparency (e.g. if trusted parties are corrupt, society can witness)
 * Efficient system, no expensive middlemen that can be replaced with technology
 

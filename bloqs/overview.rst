@@ -93,6 +93,7 @@ The fund manager needs to be trusted by the bloqholders anyway. This option woul
 
 We foresee that traditional exchanges and broker services will be replaced by more value added services that will also be more price efficient as they operate without a monopoly / authority.
 An example service on top of the Bloq ecosystem is the :ref:`bloqhouse`, which provides:
+
 * Bloqholder convenience and experience
 * Fiat currency support (eliminate real world friction)
 * Connection service, bringing Bloqholders together
@@ -115,6 +116,7 @@ The permissionless option
 
 The goal is not to use blockchain technology, which for some is equal to permissionless solutions. The goal is to create a digital real estate ownership ecoystem that accelerates innovation.
 Both a permissionless and permissioned option provide many benefits to the current systems:
+
 * it increases standardization of digital representations of assets
 * the system is transparent
 * there is no exchange with a trading monopoly
@@ -123,7 +125,8 @@ Both a permissionless and permissioned option provide many benefits to the curre
 
 We believe those improvements will have a big positive impact on scaling the Bloq ecosystem and foster innovation.
 
-See the section about :ref:`codemeetslaw` that discusses difficulties with a permissionless setup, which includes:
+See the section about :ref:`codemeetslaw` that discusses difficulties with a permissionless setup including:
+
 * updates to smart contract business logic in case of regulation changes
 * forks and bugs
 * protocol leadership
