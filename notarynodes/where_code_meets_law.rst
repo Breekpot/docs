@@ -18,9 +18,9 @@ NotaryNodes aims to:
 * Apply blockchain to real-world applications (including regulated assets)
 * Learn by doing (small scale proof-of-concepts)
 * Collaborate with partners such as notaries and technology companies
-* Guarantee regulation requirements
+* Make sure regulatory requirements are met
 * Identify new business models and opportunities for partners
-* Relax some blockchain principles and make a shift from code is law towards *code meets law*
+* Make the shift from code is law towards *code meets law*
 
 Code is law
 -----------
@@ -92,7 +92,7 @@ It's important to realize that proof-of-work and de-centrality to establish trus
 Ends
 ~~~~
 
-* Digitized, and very important, standardized representations of assets
+* Digitized and very important, standardized, representations of assets
 * A trusted ledger that provides transparency (e.g. if trusted parties are corrupt, society can witness)
 * Efficient system, no expensive middlemen that can be replaced with technology
 
