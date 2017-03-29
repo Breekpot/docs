@@ -1,3 +1,5 @@
+.. _codemeetslaw:
+
 Where code meets law
 ====================
 
@@ -16,6 +18,7 @@ NotaryNodes aims to:
 * Apply blockchain to real-world applications (including regulated assets)
 * Learn by doing (small scale proof-of-concepts)
 * Collaborate with partners such as notaries and technology companies
+* Guarantee regulation requirements
 * Identify new business models and opportunities for partners
 * Relax some blockchain principles and make a shift from code is law towards *code meets law*
 
@@ -67,13 +70,13 @@ To apply blockchain technology on scale to for example society's pension money; 
 
 .. _publicvsprivate:
 
-Public blockchains
-------------------
+Permissionless blockchains
+--------------------------
 
 For sure Bitcoin protocol has the most mining power backing it up.
 All that mining power creates a high trust level as it makes manipulation of the ledger expensive (on the other hand it makes transactions rather expensive too..).
 
-Given the current maturity of the technology we still see a lot challenges to apply public ledger technology to regulated assets:
+Given the current maturity of the technology we still see a lot challenges to apply permissionlesss ledger technology to regulated assets:
 
 * Technological immaturity
 * Implications of phenomena such as forks are unclear
@@ -99,13 +102,13 @@ Characteristics of real assets
 Unlike bitcoin or gold, there are many assets that are linked to a central party. For stock its the company behind it and for real estate it's the local authority that allows you to claim the land.
 So the following is actually a valid question: Do you need a global de-central ledger to record asset ownership claims that can be overruled by authorities?
 
-Private blockchains
--------------------
+Permissioned blockchains
+------------------------
 
-Private blockchains do not provide the de-centrality public blockchains provide. Which was Bitcoin protocol's core innovation.
-Maybe, for many assets, private blockchains could be a good enough *means* to the above *ends*.
+Private blockchains do not provide the de-centrality permissionless blockchains provide. Which was Bitcoin protocol's core innovation.
+Maybe, for many assets, permissioned blockchains could be a good enough *means* to the above *ends*.
 
-Current private blockchain implementations often have a specific, narrow, focus.
+Current permissioned blockchain implementations often have a specific, narrow, focus.
 They are tied to a specific group of companies that work together. It brings transparency, efficiency and middle men can be cut out.
 However it forces, often non-tech companies, to maintain a ledger themselves.
 
@@ -113,10 +116,10 @@ Example: bookstore vouchers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Book vouchers can usually be redeemed at many different bookstores.
 Blockchain technology could be an efficient solution to register transactions.
-But does it make sense to ask non-technical companies such as bookstores to each maintain a peer of the private network?
+But does it make sense to ask non-technical companies such as bookstores to each maintain a peer of the permissioned network?
 
 Temporary sweet spot
 --------------------
-With so many unanswered questions and the ambition to go live today and not in 2018; we are currently experimenting to see if a **general purpose** private blockchain fits real, regulated, assets best.
+With so many unanswered questions and the ambition to go live today and not in 2018; we are currently experimenting to see if a **general purpose** permissioned blockchain fits real, regulated, assets best.
 
-.. note:: Maturing of technology might gravitate the sweet spot towards more de-centrality (public blockchains) in the future.
+.. note:: Maturing of technology might gravitate the sweet spot towards more de-centrality (permissionless blockchains) in the future.

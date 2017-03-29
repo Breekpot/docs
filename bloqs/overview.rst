@@ -17,10 +17,10 @@ The below image explains the entities involved.
     Overview of entities
 
     +-----------------------------------------+-----------------------+-----------------------------------------+-----------------------+
-    | .. image:: ../images/property.png       | Property              | .. image:: ../images/assetmanager.png   | Asset manager         |
+    | .. image:: ../images/property.png       | Property              | .. image:: ../images/assetmanager.png   | Fund manager          |
     |    :width: 30px                         |                       |    :width: 30px                         |                       |
     +-----------------------------------------+-----------------------+-----------------------------------------+-----------------------+
-    | .. image:: ../images/business.png       | Legal entity          | .. image:: ../images/crowd.png          | Crowd                 |
+    | .. image:: ../images/business.png       | Legal entity / fund   | .. image:: ../images/crowd.png          | Crowd                 |
     |    :width: 30px                         |                       |    :width: 30px                         |                       |
     +-----------------------------------------+-----------------------+-----------------------------------------+-----------------------+
     | .. image:: ../images/legalowner.png     | Legal ownership       | .. image:: ../images/tenant.png         | Tenant                |
@@ -50,9 +50,9 @@ Bloqification will replace offline (sometimes physical) shareholder registers wi
 
 Per business entity a smart contract is written and deployed. Within the smart contract's inner database the names of shareholders are stored.
 Regulation of financial markets requires Bloq holders to be identifiable. Bloqholder names are encrypted such that it requires two keys to decrypt them.
-The asset manager will hold one of them, the other is in the possession of regulators.
+The fund/asset manager will hold one of them, the other is in the possession of regulators (or similar solutions).
 
-Developers can call smart contract functions to transfer bloqs or change the asset owner (which requires a crypto signature by a notary).
+Developers can call smart contract functions to transfer bloqs or change the fund manager (which requires a crypto signature by a notary).
 See the :ref:`bloqapi` for an overview of the implemented methods.
 
 |
@@ -75,31 +75,56 @@ See the :ref:`bloqapi` for an overview of the implemented methods.
 
 |
 
-Legal
------
+Regulation
+----------
 
-We involve regulators from the beginning to design solutions collaboratively.
+Real estate is regulated as is trading in financial instruments. We involve **regulators** from the beginning to design solutions **collaboratively**.
 Relevant regulators and institutions are Financial Markets Authority (AFM), Tax department, Dutch bank (DNB) and European central bank (ECB).
 
-De-central?
+Permissioning
+~~~~~~~~~~~~~
+
+.. note:: Please read the section about :ref:`codemeetslaw` first.
+
+Which blokchain to use, who forms the blockchain network i.e. who controls the peers?
+
+The most disintermediating option, except for permissionless solutions, would be to have the fund managers (creators of the smart contracts) setup a peer network themselves.
+The fund manager needs to be trusted by the bloqholders anyway. This option would effectively eliminate the need for any other trusted middle men such as exchanges (e.g. Euronext) and brokers.
+
+We foresee that traditional exchanges and broker services will be replaced by more value added services that will also be more price efficient as they operate without a monopoly / authority.
+An example service on top of the Bloq ecosystem is the :ref:`bloqhouse`, which provides:
+* Bloqholder convenience and experience
+* Fiat currency support (eliminate real world friction)
+* Connection service, bringing Bloqholders together
+
+NotaryNodes
 ~~~~~~~~~~~
 
-The goal is not to use blockchain technology. The goal is to create a digital real estate ownership ecoystem that accelerates innovation.
+Instead of fund managers controlling the peers. We are investigating another scenario; where a network of notaries control a network of peers.
+The notary is a middle men that, by law, is already part of the chain of trust (notaries play a role in issuing the Bloqs).
 
-Bloq smart contracts are hosted on NotaryNodes V0.1 (:ref:`fabricimplementation`). Which aims to find a sweet spot between public and private blockchains.
+We believe that instead of having many specialized permissioned blockchains (e.g. one for real estate run by fund managers and one for book vouchers run by bookstores) it makes sense
+to create a scale advantage. So a general purpose permissioned blockchain where notaries guarantee integrity of protocol execution through effectively controlling the nodes.
+The scale advantage should result in expertise at a lower price point. To guarantee quality at a fair price, it's important to allow competition.
+That is why NotaryNodes is an open initiative that allows any registered notary to join.
 
-Controlled access to update smart contract business logic is facilitated in case  regulation changes, a bug is found or in case the community behind the underlying protocol abandons the project.
+The bloq smart contracts v0.1 are hosted on a pilot version of NotaryNodes, *the sweet spot between permissionless and permissioned ledgers*.
 
-The solution we are investigating is to capture, together with a notary and before deployment, the conditions that would allow updates to the code.
-Such a solution would trade code-is-law and de-centrality for flexibility in case of necessary change, as that is the only constant we know.
+The permissionless option
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The implications are quite fundamental, for some it undermines the purpose of blockchain technology.
-Though we argue that important improvements over the old solutions still hold:
-
+The goal is not to use blockchain technology, which for some is equal to permissionless solutions. The goal is to create a digital real estate ownership ecoystem that accelerates innovation.
+Both a permissionless and permissioned option provide many benefits to the current systems:
 * it increases standardization of digital representations of assets
 * the system is transparent
-* there is no trading house with a trading monopoly
+* there is no exchange with a trading monopoly
 * smart contract logic lowers trading friction
 * smart contract logic can hold mechanisms to manage identities and prevent money laundering
 
 We believe those improvements will have a big positive impact on scaling the Bloq ecosystem and foster innovation.
+
+See the section about :ref:`codemeetslaw` that discusses difficulties with a permissionless setup, which includes:
+* updates to smart contract business logic in case of regulation changes
+* forks and bugs
+* protocol leadership
+* risks related to an anonymous mining community

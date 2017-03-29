@@ -19,7 +19,7 @@ Hyperledger fabric
 NotaryNodes v0.1 is a hosted instance of the fabric protocol. Integrity of protocol execution (hosting peers) is safeguarded by notaries.
 Its optimized for use cases that involve regulated assets. E.g. it will provide re-useable functionality to connect to official identity providers such as idensys.
 
-V0.1 is a *general purpose* private ledger.
+V0.1 is a *general purpose* permissioned ledger.
 
 .. figure:: ../images/notarynodes.png
     :scale: 70 %

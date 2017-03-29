@@ -3,6 +3,7 @@
 
 This section illustrates some example services built on top of NotaryNodes.
 
+.. _bloqhouse:
 
 Bloqhouse Bloq Exchange
 -----------------------
