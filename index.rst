@@ -53,6 +53,5 @@ The documentation for the site is organized into a couple sections:
 
    bloqs/overview
    bloqs/getting_started
-   bloqs/api
    bloqs/hackathon
    bloqs/bloqhouse/overview
