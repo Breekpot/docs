@@ -54,3 +54,8 @@ External sources
 * `Mr-online article idintt solution <http://www.mr-online.nl/doorne-als-enige-op-blockchain-event>`__
 * `Idintt hackathon contribution, the codebase <https://github.com/notarynodes/idintt>`__
 * `Dutch Blockchain Hackathon <https://blockchainhackathon.eu>`__
+
+(Enterprise) Ethereum
+---------------------
+
+More information will soon follow.
