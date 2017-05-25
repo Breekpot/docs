@@ -3,6 +3,8 @@
 The BloqToken
 =============
 
+.. note:: Work in progress. NotaryNodes has become Parliaments.
+
 About the to be tokenized investment fund
 -----------------------------------------
 
