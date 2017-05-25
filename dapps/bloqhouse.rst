@@ -15,20 +15,10 @@ To support those fiat currencies, trades take place off-chain. To facilitate tra
 
 |
 
-.. figure:: ../../images/bloqhouse_exchange.png
-    :scale: 50 %
+.. figure:: ../images/bloqhouse_exchange.png
+    :scale: 70 %
     :alt: Bloqhouse off-chain exchange
     :align: center
-
-    Bloqhouse off-chain exchange
-
-    +-----------------------------------------+-----------------------+-----------------------------------------+-----------------------+
-    | .. image:: ../../images/bloq.png        | Bloq                  | .. image:: ../../images/crowd.png       | Crowd                 |
-    |    :width: 30px                         |                       |    :width: 30px                         |                       |
-    +-----------------------------------------+-----------------------+-----------------------------------------+-----------------------+
-    | .. image:: ../../images/euro.png        | Fiat currency         | .. image:: ../../images/bloqhouse.png   | Bloqhouse exchange    |
-    |    :width: 30px                         |                       |    :width: 30px                         |                       |
-    +-----------------------------------------+-----------------------+-----------------------------------------+-----------------------+
 
 Visit `Bloqhouse.com <https://www.bloqhouse.com>`__ to apply for the pilot and buy Bloqs during the Genesis Bloqs Emission (scheduled for the end of this summer).
 If you want to develop your own applications on top of the Bloq ecosystem, visit the :ref:`bloqstarted` pages.
@@ -43,18 +33,10 @@ Decentral exchange / transfer of ownership could be achieved trough pegged zones
 
 |
 
-.. figure:: ../../images/onchain_exchange.png
-    :scale: 50 %
+.. figure:: ../images/onchain_exchange.png
+    :scale: 70 %
     :alt: On-chain exchange
     :align: center
-
-    On-chain exchange
-
-    +-----------------------------------------+-----------------------+-----------------------------------------+-----------------------+
-    | .. image:: ../../images/bitcoin.png     | Bitcoin               | .. image:: ../../images/3rdparty.png    | dApp                  |
-    |    :width: 30px                         |                       |    :width: 30px                         |                       |
-    +-----------------------------------------+-----------------------+-----------------------------------------+-----------------------+
-
 |
 
 Collateralized peer-to-peer lending
@@ -65,14 +47,7 @@ Coming winter Bloqhouse plans to organize a :ref:`bloqathon` to kick-start devel
 
 |
 
-.. figure:: ../../images/peerlending.png
-    :scale: 50 %
+.. figure:: ../images/peerlending.png
+    :scale: 70 %
     :alt: Collateralized peer-to-peer lending
     :align: center
-
-    Collateralized peer-to-peer lending
-
-    +-----------------------------------------+-----------------------+
-    | .. image:: ../../images/bank.png        | Bank                  |
-    |    :width: 30px                         |                       |
-    +-----------------------------------------+-----------------------+
