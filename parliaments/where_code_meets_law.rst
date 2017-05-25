@@ -64,12 +64,32 @@ All investment fund documentation is stored to IPFS and linked from within the s
 
 Parliaments ecosystem roles
 ---------------------------
-The blockchain zones consists of the following roles
+The blockchain zones consist of the following roles.
 
 .. figure:: ../images/roles.png
     :scale: 70 %
     :alt: Roles
     :align: center
+
+Bloqminter
+~~~~~~~~~~
+Manages the investment fund that is tokenized (is the legal owner of the fund) - known legal entity.
+
+Bloqholders
+~~~~~~~~~~~
+Partial economic owners of the investment fund, they elect the parliament - identity is known to Bloqminter only.
+
+Signing oracles
+~~~~~~~~~~~~~~~
+Trusted off-chain identification entities approved by the Bloqminter - known legal entity.
+
+Executors
+~~~~~~~~~
+(Optional) escrow-like accounts to support (off-chain) conditional transfers - known legal entity.
+
+Parliament nodes
+~~~~~~~~~~~~~~~~
+Validate transactions, they get elected by Bloqholders (based on stake) - known legal entity.
 
 Governance rules
 ----------------
