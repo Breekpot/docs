@@ -18,40 +18,22 @@ NotaryNodes aims to **close the gap** between **code and law**.
 NotaryNodes is an **open initiative**, knowledge and code will be made available **open source**.
 Contributions are welcome, please request access on Github.
 
-.. note:: This is a work *in progress*. Documentation, legal framework and code all have incubation status. Insights & solutions are subject to constant change!
-
-The documentation for the site is organized into a couple sections:
-
-* :ref:`docs-notarynodes`
-* :ref:`docs-legal`
-* :ref:`docs-bloqs`
+.. note:: This is a work *in progress*. Documentation, legal framework and code all have incubation status. The implementation is subject to change!
 
 .. _docs-notarynodes:
 
 .. toctree::
    :maxdepth: 2
-   :caption: About NotaryNodes
+   :caption: Parliaments
 
-   notarynodes/where_code_meets_law
-   notarynodes/version1
-   notarynodes/joining
+   parliaments/where_code_meets_law
 
-.. _docs-legal:
-
-.. toctree::
-    :maxdepth: 2
-    :caption: Legal
-
-    legal/overview
-    legal/notary_workshops
-
-.. _docs-bloqs:
+.. _docs-bloqtokens:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Bloqs (an example asset)
+   :caption: BloqToken
 
-   bloqs/overview
-   bloqs/getting_started
-   bloqs/hackathon
-   bloqs/bloqhouse/overview
+   bloqtoken/overview
+   bloqtoken/getting_started
+   dapps/bloqhouse

@@ -1,17 +1,17 @@
 (Decentralized) APPs
 ====================
 
-This section illustrates some example services built on top of NotaryNodes.
+This section illustrates some example services built on top of the BloqToken ecosystem.
 
 .. _bloqhouse:
 
 Bloqhouse Bloq Exchange
 -----------------------
 
-.. note:: Please read the section about Bloqs first, :ref:`bloqintro` Also note that, in contrary to the **open source** Bloq ecosystem, Bloqhouse is a commercial application.
+.. note:: Please read the section about the Bloqtoken first, :ref:`bloqintro` Also note that, in contrary to the **open source** Bloq ecosystem, Bloqhouse is a commercial application.
 
-Bloqhouse is an online wallet app that allows users to trade Bloqs with other users in exchange for fiat currencies such as EUR or USD.
-To support those fiat currencies, trades take place off-chain.
+Bloqhouse is an online wallet app (not a Dapp) that allows users to trade Bloqs with other users in exchange for fiat currencies such as EUR or USD.
+To support those fiat currencies, trades take place off-chain. To facilitate transactions Bloqhouse full fils the Parliaments ecosytems roles of Executor and Signing oracle.
 
 |
 
@@ -30,24 +30,25 @@ To support those fiat currencies, trades take place off-chain.
     |    :width: 30px                         |                       |    :width: 30px                         |                       |
     +-----------------------------------------+-----------------------+-----------------------------------------+-----------------------+
 
-Visit `Bloqhouse.com <https://www.bloqhouse.com>`__ to apply for the pilot and buy Bloqs during the first Bloq emission this summer.
+Visit `Bloqhouse.com <https://www.bloqhouse.com>`__ to apply for the pilot and buy Bloqs during the Genesis Bloqs Emission (scheduled for the end of this summer).
 If you want to develop your own applications on top of the Bloq ecosystem, visit the :ref:`bloqstarted` pages.
 
 Off- vs on-chain exchanges
 --------------------------
 
-Trading on-chain Bloqs with another on-chain asset such as the Bitcoin would allow for a complete de-central flow.
+Trading on-chain Bloqs with another on-chain asset such as the bitcoins would allow for a de-central flow that does not delegate execution control to a trusted third party.
+Decentral exchange / transfer of ownership could be achieved trough pegged zones and the Cosmos hub.
 
-.. note:: The KYC conditions, that are baked into the *Bloq transfer function*, still have to be met.
+.. note:: The KYC signature conditions, that are baked into the *Bloq transfer function*, still have to be met.
 
 |
 
 .. figure:: ../../images/onchain_exchange.png
     :scale: 50 %
-    :alt: Third party on-chain exchange
+    :alt: On-chain exchange
     :align: center
 
-    Third party on-chain exchange
+    On-chain exchange
 
     +-----------------------------------------+-----------------------+-----------------------------------------+-----------------------+
     | .. image:: ../../images/bitcoin.png     | Bitcoin               | .. image:: ../../images/3rdparty.png    | dApp                  |
@@ -60,7 +61,7 @@ Collateralized peer-to-peer lending
 -----------------------------------
 
 Another application one could think of is to use Bloqs to collateralize peer-to-peer loans between friends or between bank and customer.
-Coming summer Bloqhouse plans to organize a :ref:`bloqathon` to kick-start development on top of the **open** Bloq ecoystem.
+Coming winter Bloqhouse plans to organize a :ref:`bloqathon` to kick-start development on top of the **open** Bloqtoken ecoystem.
 
 |
 
