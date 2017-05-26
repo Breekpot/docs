@@ -3,13 +3,16 @@
 The BloqToken
 =============
 
-.. note:: Work in progress. NotaryNodes has become Parliaments.
+.. note:: Work in progress. NotaryNodes has become Parliamints.
 
-About the to be tokenized investment fund
------------------------------------------
+The tokenized investment fund
+-----------------------------
 
 The first tokenized assets (Bloqs) will be real estate investment funds managed by AIFMd registered Alternative Investment Fund Managers.
-A Bloq is a digitized ownership certificate of a legal entity holding a real estate object. The real estate object is rented to one or more tenants.
+For every legal entity (a fund) holding a real estate object a BloqToken smart contract is deployed to a Parliamint zone selected by the fund manager.
+The BloqToken contract divides the ownership in p2p tradable Bloqs. Bloqs are partial ownership shares of the fund, they are digital representations of non-voting economic ownership certificates (*STAK in Dutch*).
+
+The real estate object is rented to one or more tenants.
 The Bloq entitles the owner to the economic benefits realized by the entity. The direct profit is equal to the rent minus management costs.
 On the secondary market Bloqs can be traded peer-to-peer, Bloqholders can make an indirect profit from value appreciation.
 Bloq value is determined by demand and supply.

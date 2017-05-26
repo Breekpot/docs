@@ -6,19 +6,19 @@ Welcome to
 
 |
 
-The goal of NotaryNodes is to make **blockchain** technology a better fit to **real assets** that are under **legal jurisdiction** i.e. that are regulated.
+The goal of Parliamints is to make **blockchain** technology a better fit to **real assets** that are under **legal jurisdiction** i.e. that are regulated.
 
 Blockchain technology for real - regulated - assets
 ---------------------------------------------------
 
 Smart contract technology makes digitizing assets rather straightforward.
 Though bringing it to production-ready real world use cases is *not* straightforward.
-NotaryNodes aims to **close the gap** between **code and law**.
+Parliamints aims to **close the gap** between **code and law**.
 
-NotaryNodes is an **open initiative**, knowledge and code will be made available **open source**.
+Parliamints is an **open initiative**, knowledge and code will be made available **open source**.
 Contributions are welcome, please request access on Github.
 
-.. note:: This is a work *in progress*. Documentation, legal framework and code all have incubation status. The implementation is subject to change!
+.. note:: This is a work *in progress*. Documentation, legal framework and code all have incubation status. The implementation is subject to change, as is the name which used to be NotaryNodes!
 
 .. _docs-notarynodes:
 
