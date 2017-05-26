@@ -21,18 +21,19 @@ They rely on a proof-of-stake BFT consensus model and implement oracle technolog
 Smart contracts are written in Solidity and interpreted by the Ethereum virtual machine.
 All validators (the parliament) identify themselves and sign a code of conduct that makes them legally accountable.
 
-Design requirements
--------------------
+Design goals
+------------
 When designing the parliament technology stack and governance model the following requirements where key:
 
 Transparency
 ~~~~~~~~~~~~
 * Trustworthy investment funds
+* Open source code
 * Liquid, borderless, markets
 
-Minimize amount of trusted parties & (trading) authority
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* Robust and trustworthy ecosystem
+Minimize the number of trusted parties & authorities
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* More robust ecosystem that can trusted by looking at it's codebase
 * Minimal friction and costs
 
 Non-anonymous participants that can be held accountable
@@ -40,6 +41,10 @@ Non-anonymous participants that can be held accountable
 * Prevent fraud
 * Incentivize honest behaviour
 * Create a legal safety net in case of bugs or byzantine validators (>1/3)
+
+In contrary to most cryptocurrency designs it's **not** a design goal to make the ecosystem
+completely de-centralized, as the assets traded are real world assets;
+links to centralized real-world entities are thus unavoidable.
 
 About the underlying technology
 -------------------------------
