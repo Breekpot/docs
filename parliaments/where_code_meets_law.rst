@@ -44,7 +44,7 @@ Non-anonymous participants that can be held accountable
 
 In contrary to most cryptocurrency designs it's **not** a design goal to make the ecosystem
 completely de-centralized, as the assets traded are real world assets;
-links to centralized real-world entities are thus unavoidable.
+links to centralized real-world entities are unavoidable.
 
 About the underlying technology
 -------------------------------
