@@ -118,7 +118,7 @@ As there can be multiple Bloqtoken contracts per zone, we might need to express 
 
 We are currently researching the different implementation scenarios.
 
-.. figure:: ../images/Parliamint.png
+.. figure:: ../images/parliamint.png
     :scale: 45 %
     :alt: Parliamint
     :align: center
