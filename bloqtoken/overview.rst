@@ -45,12 +45,14 @@ Investment documentation
 Investment documents, such as the prospectus, will be stored on IPF. A link to the IPFS hash is stored within the BloqToken contract.
 
 .. _bloqstarted:
+
 Getting started
 ---------------
 Soon test BLTs will be deployed to the Ropsten testnet.
 Contact hello@bloq.house for more information.
 
 .. _bloqathon:
+
 Bloqathon
 ---------
 Q4 2017 Bloqhouse will organize a Bloqathon to kick-start development on top of the **open** Bloqtoken ecoystem.
