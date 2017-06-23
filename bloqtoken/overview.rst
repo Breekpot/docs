@@ -18,11 +18,11 @@ Bloq value is determined by the market; demand and supply.
 
 Characteristics of a Bloq:
   * It's a digital representation of a (partial) economic ownership certificate
-  * Bloqs entitle holders to the profits being made, it doesn't give them voting rights
-  * Bloqs holders are not liable for a potential loss
+  * Bloqs entitle holders to the profits being made, it doesn't provide voting rights for day to day decisions (e.g. deciding about tenants)
+  * Bloqsholders are not liable for potential losses
   * Bloqs are fungible
   * Bloqs can be traded directly peer-to-peer without notary approval
-  * Bloqholders are anonymous to the public, only the fund manager / Bloqminter knows there identity (NAW gegevens in Dutch)
+  * Bloqholders are anonymous to the public, only the fund manager has access to the identity information of Bloqholders
 
 Regulation
 ----------
@@ -38,7 +38,7 @@ Such as checking the whitelist status (KYC) and adhering to daily trading limits
 
 For whitelisting the BLT contract relies on oracles / identity service providers.
 
-The token contract is owned/deployed by the Investment fund manager. It's the fund manager that has authority in case of forks, protocol or contract bugs.
+The token contract is owned/deployed by the Investment fund manager. It's the fund manager who has authority in case of forks, protocol or contract bugs.
 
 Investment documentation
 ------------------------
