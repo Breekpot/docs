@@ -1,39 +1,28 @@
-Welcome to
-==========
+Welcome to the Bloqhouse developer documentation
+================================================
 
 .. image:: images/logo.png
-    :scale: 50%
+    :scale: 80%
 
 |
 
-The goal of Parliamints is to make **blockchain** technology a better fit to **real assets** that are under **legal jurisdiction** i.e. that are regulated.
+Bloqhouse applies **blockchain** technology to real estate investments; we tokenize bricks.
+That involves not only working with state-of-the-art secure technology; Regulatory compliance is of key importance as is partnering with high quality real estate firms.
 
-Blockchain technology for real - regulated - assets
----------------------------------------------------
-
-Smart contract technology makes digitizing assets rather straightforward.
-Though bringing it to production-ready real world use cases is *not* straightforward.
-Parliamints aims to **close the gap** between **code and law**.
-
-Parliamints is an **open initiative**, knowledge and code will be made available **open source**.
-Contributions are welcome, please request access on Github.
-
-.. note:: This is a work *in progress*. Documentation, legal framework and code all have incubation status. The implementation is subject to change, as is the name which used to be NotaryNodes!
+.. note:: This is a work *in progress* and subject to changes.
 
 .. _docs-notarynodes:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Parliaments
+   :caption: The BloqToken
 
-   parliaments/where_code_meets_law
+   bloqtoken/overview
 
 .. _docs-bloqtokens:
 
 .. toctree::
    :maxdepth: 2
-   :caption: BloqToken
+   :caption: Ðapps
 
-   bloqtoken/overview
-   bloqtoken/getting_started
-   dapps/bloqhouse
+   dapps/overview

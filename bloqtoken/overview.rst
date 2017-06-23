@@ -3,19 +3,18 @@
 The BloqToken
 =============
 
-.. note:: Work in progress. NotaryNodes has become Parliamints.
+.. note:: This is a work in progress.
 
-The tokenized investment fund
------------------------------
+Tokenized investment funds
+--------------------------
+The first tokenized assets (BLT) will be real estate investment funds managed by AIFMd registered Alternative Investment Fund Managers.
+For every legal entity (a fund) holding one or more real estate objects an ERC20 BloqToken is deployed to Ethereum.
+Bloqtokens are digital representations of economic fund ownership certificates. By representing them digitally we make them inherently p2p tradeable.
 
-The first tokenized assets (Bloqs) will be real estate investment funds managed by AIFMd registered Alternative Investment Fund Managers.
-For every legal entity (a fund) holding a real estate object a BloqToken smart contract is deployed to a Parliamint zone selected by the fund manager.
-The BloqToken contract divides the ownership in p2p tradable Bloqs. Bloqs are partial ownership shares of the fund, they are digital representations of non-voting economic ownership certificates (*STAK in Dutch*).
-
-The real estate object is rented to one or more tenants.
-The Bloq entitles the owner to the economic benefits realized by the entity. The direct profit is equal to the rent minus management costs.
-On the secondary market Bloqs can be traded peer-to-peer, Bloqholders can make an indirect profit from value appreciation.
-Bloq value is determined by demand and supply.
+The real estate object(s) owned by the fund are rented to one or more tenants.
+As a Bloqtoken owner you're entitled to the economic benefits realized by the entity. The direct profit is equal to the rent minus management costs.
+On the secondary market Bloqs can be traded peer-to-peer, Bloqholders can thus make an indirect profit from value appreciation of the underlying assets (real estate).
+Bloq value is determined by the market; demand and supply.
 
 Characteristics of a Bloq:
   * It's a digital representation of a (partial) economic ownership certificate
@@ -25,39 +24,33 @@ Characteristics of a Bloq:
   * Bloqs can be traded directly peer-to-peer without notary approval
   * Bloqholders are anonymous to the public, only the fund manager / Bloqminter knows there identity (NAW gegevens in Dutch)
 
-|
-
 Regulation
 ----------
-Real estate is regulated, as is trading in financial instruments. We involve **regulators** from the beginning to design solutions **collaboratively**.
+Real estate transactions are regulated, as is trading in financial instruments. We involve **regulators** from the beginning to design solutions **collaboratively**.
 Relevant regulators and institutions are the Financial Markets Authority (AFM), Tax department, Dutch bank (DNB) and European central bank (ECB).
 
-Smart contracts
+BLT Smart contract
+------------------
+The BloqToken smart contract inherits the `ERC20 <https://theethereum.wiki/w/index.php/ERC20_Token_Standard>`__  token standard contract.
+We rely on standards and keep contracts as simple as possible.
+The ERC20 standard transfer and transferFrom functions implement an extra condition contract *transferConditions* that performs regulatory compliance checks.
+Such as checking the whitelist status (KYC) and adhering to daily trading limits.
+
+For whitelisting the BLT contract relies on oracles / identity service providers.
+
+The token contract is owned/deployed by the Investment fund manager. It's the fund manager that has authority in case of forks, protocol or contract bugs.
+
+Investment documentation
+------------------------
+Investment documents, such as the prospectus, will be stored on IPF. A link to the IPFS hash is stored within the BloqToken contract.
+
+.. _bloqstarted:
+Getting started
 ---------------
+Soon test BLTs will be deployed to the Ropsten testnet.
+Contact hello@bloq.house for more information.
 
-.. figure:: ../images/actionoverview.png
-    :scale: 70 %
-    :alt: Actions
-    :align: center
-
-The BloqToken smart contract implements a p2p tradable token that requires, off-chain, signatures to transfer ownership to make those transfers legally binding and to prevent money laundering.
-The Bloqtoken contract maps Bloqholders to the amount of Bloqs they own. The Bloqtoken contract also defines the business rules to transfer ownership.
-Bloqholders can create a transfer (step 1) that locks there balance for a certain time period (max 1 week). The created transfer only is processed after it is signed (step 2) and executed (step 3).
-Execution control can be given to a (third party) account to support fiat currency, off-chain, payments or payments in other cryptocurrencies through peg zones.
-Both the sending and receiving Bloqholder sign the transfer off-chain using one of the approved oracles. The oracle injects the signatures into the Bloqtoken contract.
-
-.. figure:: ../images/actions1.png
-    :scale: 70 %
-    :alt: Actions
-    :align: center
-
-Assigning execution control to a third party is optional, Bloqholders can also assign themselves. In that case the sending party can execute the transfer after both sender and receiver signed the transfer.
-
-.. figure:: ../images/actions2.png
-    :scale: 70 %
-    :alt: Actions
-    :align: center
-
-Delegating stake
-----------------
-Each Bloq also represents a vote in the consensus process. Bloqholders can delegate their votes to others that provide validation services in return for transaction costs.
+.. _bloqathon:
+Bloqathon
+---------
+Q4 2017 Bloqhouse will organize a Bloqathon to kick-start development on top of the **open** Bloqtoken ecoystem.
