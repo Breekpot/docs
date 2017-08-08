@@ -6,8 +6,9 @@ Welcome to the Bloqhouse developer documentation
 
 |
 
-Bloqhouse applies **blockchain** technology to real estate investments; we tokenize bricks.
-That involves not only working with state-of-the-art secure technology; Regulatory compliance is of key importance as is partnering with high quality real estate firms.
+Bloqhouse applies **blockchain** technology to real asset investment funds. For the pilot a closed-end real estate investment fund will be tokenized.
+We partner with key players in the Ethereum ecosystem to rely on state-of-the-art secure technology.
+Our partnership with DLA Piper, a global law firm, ensures we cover regulatory compliance. A regulated investment fund manager will be responsible for 'off-chain' management of the tokenized fund.
 
 .. note:: This is a work *in progress* and subject to changes.
 

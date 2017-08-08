@@ -7,17 +7,17 @@ This section illustrates some example services built on top of the BloqToken eco
 
 .. _bloqhouse:
 
-Bloqhouse Wallet app
---------------------
+Bloqhouse Wallet Ðapp
+---------------------
 
-Bloqhouse is a wallet application that allows it's users to manage their real estate portfolio.
-Visit `Bloqhouse.com <https://www.bloqhouse.com>`__ to apply for the pilot and buy Bloqs during the Genesis BloqTokens Issuance (scheduled for Q3 2017).
+Bloqhouse will provide open source wallet applications that allows investors to manage their real estate portfolio and trade the tokens.
+Visit `Bloqhouse.com <https://www.bloqhouse.com>`__ to apply for the pilot and buy Bloqs during the Genesis BloqTokens Issuance (scheduled for Q4 2017).
 If you want to develop your own applications on top of the BloqToken ecosystem, visit the :ref:`bloqstarted` page.
 
 Collateralized peer-to-peer lending
 -----------------------------------
 
-Another example application would be collateralized peer-to-peer loans between friends or between a bank and customer.
+Among the dozens of potential applications of tokenized real estate a very promising one would be collateralized peer-to-peer loans between friends or between a bank and customer.
 Coming winter Bloqhouse plans to organize a :ref:`bloqathon` to kick-start development on top of the **open** Bloqtoken ecoystem.
 
 |
