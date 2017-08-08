@@ -1,7 +1,7 @@
 Welcome to the Bloqhouse developer documentation
 ================================================
 
-.. image:: images/logo.png
+.. image:: images/logo2.jpg
     :scale: 80%
 
 |
