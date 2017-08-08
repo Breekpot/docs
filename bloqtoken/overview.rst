@@ -32,9 +32,8 @@ Relevant regulators and institutions are the Financial Markets Authority (AFM), 
 BLT Smart contract
 ------------------
 The BloqToken smart contract inherits the `ERC20 <https://theethereum.wiki/w/index.php/ERC20_Token_Standard>`__  token standard contract.
-The ERC20 standard transfer and transferFrom functions are extended with modifiers that check against extra conditions that ensure regulatory compliance.
-Such as checking the whitelist status (know-your-customer).
-For whitelisting the contract relies on oracles / identity service providers.
+The ERC20 standard transfer and transferFrom functions are extended with modifiers that check against if additional conditions are met to ensure regulatory compliance.
+These include a whitelisting check (for know-your-customer regulation). For whitelisting the contract relies on oracles / identity service providers.
 
 The token contract is owned & deployed by the Investment fund manager. It's the fund manager who has authority in case of forks, protocol or contract bugs.
 
