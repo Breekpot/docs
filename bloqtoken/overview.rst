@@ -47,9 +47,11 @@ Investment documents, such as the prospectus, will be stored on IPFS. A link to 
 Getting started
 ---------------
 Bloqtokens are deployed to Rinkeby testnet for testing purposes. Soon the underlying code will be made available open source on Github.
-* Property 1 - 0xD91d5C54f929366d79F282510062E0811fA5600F
-* Property 2 - 0x67a87D372f450776Af4D76E0D09374e012012011
-* Property 3 - 0x2d9b07C7D2cfFe7A99ED757acE95e8C7eB0CE093
+
+  * Property 1 - 0xD91d5C54f929366d79F282510062E0811fA5600F
+  * Property 2 - 0x67a87D372f450776Af4D76E0D09374e012012011
+  * Property 3 - 0x2d9b07C7D2cfFe7A99ED757acE95e8C7eB0CE093
+
 Contact hello@bloq.house for more information.
 
 .. _bloqathon:
