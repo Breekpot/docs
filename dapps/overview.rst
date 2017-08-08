@@ -18,7 +18,7 @@ Collateralized peer-to-peer lending
 -----------------------------------
 
 Among the dozens of potential applications of tokenized real estate a very promising one would be collateralized peer-to-peer loans between friends or between a bank and customer.
-Coming winter Bloqhouse plans to organize a :ref:`bloqathon` to kick-start development on top of the **open** Bloqtoken ecoystem.
+Bloqhouse will organize a :ref:`bloqathon` to kick-start development on top of the **open** Bloqtoken ecoystem.
 
 |
 
